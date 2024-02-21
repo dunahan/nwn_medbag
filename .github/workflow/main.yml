@@ -15,3 +15,5 @@ jobs:
 
       - name: Build module
         uses: Ardesco/nasher4gh@v1
+        with:
+          args: "['pack', '--default', '-usenwnscriptcomp']"
